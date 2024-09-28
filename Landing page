@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>7 Wonders of the World</title>
+        <link rel="stylesheet" href="styles.css">
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                background-color: #f4f4f4;
+                color: #333;
+            }
+            header {
+                background-color: #2c3e50;
+                color: white;
+                text-align: center;
+                padding: 2rem 0;
+            }
+            header h1 {
+                margin: 0;
+                font-size: 3rem;
+            }
+            .container {
+                width: 80%;
+                margin: auto;
+                overflow: hidden;
+                padding: 2rem 0;
+            }
+            .intro {
+                text-align: center;
+                margin-bottom: 3rem;
+            }
+            .intro p {
+                font-size: 1.2rem;
+                line-height: 1.8;
+                margin-bottom: 1rem;
+            }
+            .wonder {
+                margin: 2rem 0;
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+                justify-content: space-between;
+            }
+            .wonder img {
+                width: 40%;
+                border-radius: 8px;
+            }
+            .wonder-content {
+                width: 55%;
+            }
+            .wonder-content h2 {
+                font-size: 2.5rem;
+                color: #2980b9;
+            }
+            .wonder-content p {
+                font-size: 1.2rem;
+                line-height: 1.6;
+            }
+            footer {
+                background-color: #2c3e50;
+                color: white;
+                text-align: center;
+                padding: 1rem 0;
+                margin-top: 2rem;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <h1>Explore the 7 Wonders of the World</h1>
+        </header>
+
+        <!-- Main Container -->
+        <div class="container">
+            <!-- Introduction Section -->
+            <section class="intro">
+                <p>The Seven Wonders of the World, also known as the New Seven Wonders, are a remarkable collection of ancient and modern architectural marvels. These sites are a testament to human creativity, innovation, and the drive to push the boundaries of engineering and art. From ancient civilizations to more recent constructions, each wonder offers a glimpse into the incredible achievements of humankind.</p>
+                <p>Whether carved into mountains or constructed from stone, these wonders stand as symbols of cultural heritage, dedication, and perseverance. Join us as we journey through these magnificent sites, and experience the grandeur and legacy of the Seven Wonders of the World.</p>
+                <p>Each of these wonders has a unique story, a reflection of the culture and the people who built them. From the remote peaks of the Andes in Peru to the bustling streets of Rome, these wonders continue to attract millions of visitors, and they remind us of the extraordinary feats that humans are capable of achieving.</p>
+            </section>
+
+            <!-- Wonder: Great Wall of China -->
+            <section class="wonder">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/The_Great_Wall_of_China_at_Jinshanling.jpg/150px-The_Great_Wall_of_China_at_Jinshanling.jpg" alt="Great Wall of China">
+                <div class="wonder-content">
+                    <h2>Great Wall of China</h2>
+                    <p>Stretching over 13,000 miles, the Great Wall of China is an ancient defensive structure built to protect the Chinese states from invasions. Its construction began in the 7th century BC and continued for centuries. The wall weaves through rugged mountains and scenic landscapes, standing as a remarkable feat of human engineering.</p>
+                </div>
+            </section>
+
+            <!-- Wonder: Petra -->
+            <section class="wonder">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/The_Monastery%2C_Petra%2C_Jordan8.jpg/150px-The_Monastery%2C_Petra%2C_Jordan8.jpg" alt="Petra">
+                <div class="wonder-content">
+                    <h2>Petra, Jordan</h2>
+                    <p>Known as the 'Rose City' due to the color of the rock, Petra is a historic city in Jordan famous for its rock-cut architecture. It was the capital of the Nabataean Kingdom and is a UNESCO World Heritage site. Hidden in the heart of the Jordanian desert, Petra was a vital crossroads for trade routes in ancient times.</p>
+                </div>
+            </section>
+
+            <!-- Wonder: Christ the Redeemer -->
+            <section class="wonder">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Unique_Moment_with_the_Moon_and_Christ_the_Redeemer_3.jpg" alt="Christ the Redeemer">
+                <div class="wonder-content">
+                    <h2>Christ the Redeemer, Brazil</h2>
+                    <p>The iconic statue of Christ the Redeemer in Rio de Janeiro stands 98 feet tall atop the Corcovado Mountain, overlooking the city. It is a symbol of Christianity around the world and was completed in 1931. The statue, with its outstretched arms, is a welcoming symbol of peace, hospitality, and spirituality.</p>
+                </div>
+            </section>
+
+            <!-- Wonder: Machu Picchu -->
+            <section class="wonder">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Machu_Picchu%2C_Peru.jpg/150px-Machu_Picchu%2C_Peru.jpg" alt="Machu Picchu">
+                <div class="wonder-content">
+                    <h2>Machu Picchu, Peru</h2>
+                    <p>Machu Picchu is an Incan citadel set high in the Andes Mountains in Peru. Built in the 15th century, it was abandoned and remained largely unknown to the outside world until its rediscovery in 1911 by Hiram Bingham. The site includes palaces, plazas, and temples, all intricately designed to blend harmoniously with the surrounding environment.</p>
+                </div>
+            </section>
+
+            <!-- Wonder: Chichen Itza -->
+            <section class="wonder">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Chichen-Itza-Castillo-Seen-From-East.JPG/150px-Chichen-Itza-Castillo-Seen-From-East.JPG" alt="Chichen Itza">
+                <div class="wonder-content">
+                    <h2>Chichen Itza, Mexico</h2>
+                    <p>Chichen Itza is a large pre-Columbian archaeological site built by the Maya civilization. Located in the Yucatán Peninsula, it is one of the most visited archaeological sites in Mexico and famous for its pyramid, El Castillo. The pyramid's design is astronomically aligned with the equinoxes, making it a fascinating marvel of Mayan science and culture.</p>
+                </div>
+            </section>
+
+            <!-- Wonder: Roman Colosseum -->
+            <section class="wonder">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Rome_Colosseum_exterior_panorama.jpg/150px-Rome_Colosseum_exterior_panorama.jpg" alt="Colosseum">
+                <div class="wonder-content">
+                    <h2>Roman Colosseum, Italy</h2>
+                    <p>The Roman Colosseum is a vast amphitheater in Rome, Italy. Completed in AD 80, it is the largest ancient amphitheater ever built and could hold up to 80,000 spectators for gladiatorial contests and public spectacles. It stands as a symbol of the grandeur of ancient Rome, its entertainment, and its architectural prowess.</p>
+                </div>
+            </section>
+
+            <!-- Wonder: Taj Mahal -->
+            <section class="wonder">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Taj_Mahal_in_March_2004.jpg/150px-Taj_Mahal_in_March_2004.jpg" alt="Taj Mahal">
+                <div class="wonder-content">
+                    <h2>Taj Mahal, India</h2>
+                    <p>The Taj Mahal is a stunning white marble mausoleum located in Agra, India. Built by the Mughal Emperor Shah Jahan in memory of his beloved wife Mumtaz Mahal, it stands as a symbol of eternal love and architectural beauty. The symmetry, intricate inlay work, and gardens surrounding the monument make it one of the most beautiful structures in the world.</p>
+                </div>
+            </section>
+
+            <!-- Additional Section: Legacy of the Wonders -->
+            <section class="intro">
+                <h2>The Legacy of the Seven Wonders</h2>
+                <p>These seven wonders are not just architectural marvels but also reflections of human history and culture. They showcase the diversity and richness of civilizations across the world. Despite centuries passing, they continue to inspire awe and admiration, connecting us to the achievements of the past.</p>
+                <p>Visiting
